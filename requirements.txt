@@ -8,15 +8,15 @@ SQLAlchemy==2.0.32
 psycopg2-binary==2.9.9
 
 praw==7.7.1
-pygooglenews==0.1.2
-feedparser==5.2.1
+feedparser==6.0.11     # keep modern feedparser
+# pygooglenews REMOVED (pins to broken feedparser 5.x)
 
 transformers==4.45.2
 tokenizers==0.20.3
 safetensors==0.4.5
 huggingface-hub==0.24.6
 
-torch==2.8.0
+torch==2.8.0           # CPU wheel via extra index
 
 numpy==2.1.3
 pandas==2.3.2
