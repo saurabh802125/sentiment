@@ -21,7 +21,7 @@ huggingface-hub==0.24.6
 torch==2.8.0
 
 # Data deps with wheels for py3.11
-pandas==2.2.2
+pandas==2.2.3
 numpy==1.26.4
 
 requests==2.32.3
