@@ -11,14 +11,18 @@ praw==7.7.1
 pygooglenews==0.1.2
 feedparser==6.0.11
 
-transformers==4.43.3
-tokenizers==0.19.1
+# HF stack (compatible + wheel-friendly)
+transformers==4.45.2
+tokenizers==0.20.3
 safetensors==0.4.5
 huggingface-hub==0.24.6
 
-torch==2.8.0         # CPU wheel from extra index
-pandas==2.2.2        # has wheels for Python 3.11
-numpy==1.26.4        # has wheels for Python 3.11
+# PyTorch (CPU wheels via extra index)
+torch==2.8.0
+
+# Data deps with wheels for py3.11
+pandas==2.2.2
+numpy==1.26.4
 
 requests==2.32.3
 python-dateutil==2.9.0.post0
